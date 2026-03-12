@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" th:href="@{/Bootstrap/css/bootstrap.min.css}">
+    <script th:src="@{/Bootstrap/js/bootstrap.bundle.min.js}"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-info">
+    <div class="container">
+        <span class="navbar-brand">TASK MANAGER</span>
+    </div>
+</nav>
+
+<div class="container mt-4" layout:fragment="content">
+</div>
+
+</body>
+</html>
